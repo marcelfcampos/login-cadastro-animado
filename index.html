@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login / Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- LOGIN -->
+        <div class="form-box login active">
+            <!-- Aqui ficam os inputs de login -->
+            <h2>Login</h2>
+
+            <div class="input-box">
+                <label>Email</label>
+                <input type="email" placeholder="Digite seu email">
+            </div>
+
+            <div class="input-box">
+                <label>Senha</label>
+                <input type="password" placeholder="Digite sua senha">
+            </div>
+
+            <button class="btn">Entrar</button>
+
+            <p class="toggle">
+                Não tem conta?
+                <a href="#" id="toRegister">Cadastre-se</a>
+            </p>
+        </div>
+
+        <!-- CADASTRO -->
+        <div class="form-box register">
+            <!-- Aqui ficam os inputs de cadastro -->
+            <h2>Cadastro</h2>
+
+            <div class="input-box">
+                <label>Nome</label>
+                <input type="text" placeholder="Digite seu nome">
+            </div>
+
+            <div class="input-box">
+                <label>Email</label>
+                <input type="email" placeholder="Digite seu email">
+            </div>
+
+            <div class="input-box">
+                <label>Senha</label>
+                <input type="password" placeholder="Crie uma senha">
+            </div>
+
+            <button class="btn">Registrar</button>
+
+            <p class="toggle">
+                Já tem conta?
+                <a href="#" id="toLogin">Entrar</a>
+            </p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
