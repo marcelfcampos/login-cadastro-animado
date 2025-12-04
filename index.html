@@ -14,20 +14,24 @@
 
         <!-- LOGIN -->
         <div class="form-box login active">
-            <!-- Aqui ficam os inputs de login -->
             <h2>Login</h2>
 
-            <div class="input-box">
-                <label>Email</label>
-                <input type="email" placeholder="Digite seu email">
-            </div>
+            <!-- FORMULÁRIO DE LOGIN -->
+            <form action="processa.html" method="get">
 
-            <div class="input-box">
-                <label>Senha</label>
-                <input type="password" placeholder="Digite sua senha">
-            </div>
+                <div class="input-box">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email" required>
+                </div>
 
-            <button class="btn">Entrar</button>
+                <div class="input-box">
+                    <label>Senha</label>
+                    <input type="password" name="senha" placeholder="Digite sua senha" required>
+                </div>
+
+                <button class="btn" type="submit">Entrar</button>
+
+            </form>
 
             <p class="toggle">
                 Não tem conta?
@@ -37,25 +41,29 @@
 
         <!-- CADASTRO -->
         <div class="form-box register">
-            <!-- Aqui ficam os inputs de cadastro -->
             <h2>Cadastro</h2>
 
-            <div class="input-box">
-                <label>Nome</label>
-                <input type="text" placeholder="Digite seu nome">
-            </div>
+            <!-- FORMULÁRIO DE CADASTRO -->
+            <form action="processa.html" method="get">
 
-            <div class="input-box">
-                <label>Email</label>
-                <input type="email" placeholder="Digite seu email">
-            </div>
+                <div class="input-box">
+                    <label>Nome</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome" required>
+                </div>
 
-            <div class="input-box">
-                <label>Senha</label>
-                <input type="password" placeholder="Crie uma senha">
-            </div>
+                <div class="input-box">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="Digite seu email" required>
+                </div>
 
-            <button class="btn">Registrar</button>
+                <div class="input-box">
+                    <label>Senha</label>
+                    <input type="password" name="senha" placeholder="Crie uma senha" required>
+                </div>
+
+                <button class="btn" type="submit">Registrar</button>
+
+            </form>
 
             <p class="toggle">
                 Já tem conta?

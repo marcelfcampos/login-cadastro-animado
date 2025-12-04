@@ -2,14 +2,16 @@ const loginForm = document.querySelector(".login");
 const registerForm = document.querySelector(".register");
 
 document.getElementById("toRegister").addEventListener("click", () => {
-    loginForm.classList.remove("active");
-    registerForm.classList.add("active");
+    loginForm.classList.remove("active");   // esconde login
+    registerForm.classList.add("active");   // mostra cadastro
 });
 
+
 document.getElementById("toLogin").addEventListener("click", () => {
-    registerForm.classList.remove("active");
-    loginForm.classList.add("active");
+    registerForm.classList.remove("active");  // esconde cadastro
+    loginForm.classList.add("active");        // mostra login
 });
+
 
 
 
